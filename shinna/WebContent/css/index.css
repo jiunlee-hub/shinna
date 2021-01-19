@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+body {
+	background: rgba(255, 248, 220, 0.5);
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: block;
+}
+.clearfix:after {
+	clear: both;
+}
+nav {
+	font-size: 1.3rem;
+}
+nav>ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ani ul li {
+	position: relative;
+	width: 180px;
+	height: 38px;
+}
+nav li a {
+	margin-left: 10px;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	background: rgba(0,0,0,0);
+	font-weight: bold;
+	color: #B22222;
+}
+.menu a {
+	text-decoration: none;
+}
+.sub li a {
+	text-decoration: none;
+}
+nav li a:hover, nav li a.on {
+	color: #FF6347;
+	background: rgba(0,0,0,0);
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 38px;
+}
+nav ul ul li a {
+	color: #E5B98F;
+	background: white;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+nav ul ul li:first-child a {
+	border-top: none;
+}
+nav ul ul li a:hover, .nav ul ul li a.on {
+	color: #FFD700;
+	background: white;
+}
+@media all and (max-width:575px){
+	.ani {
+		display: none;
+	}
+	.rig li {
+		margin-left: 40px;
+	}
+}
+@media all and (min-width:575px){
+	.dr {
+		display: none;
+	}
+}
+
+.menu {
+	margin-top:50px;
+	width: 130px;
+}
+
+.sub li {
+	width: 130px;
+}
+.hei {
+	height: 120px;
+}
+.wid {
+	width: 100px;
+}
+.wid a {
+	font-size: 0.875rem;
+}
+.rig {
+	margin-right: 10%;
+	margin-left: 50px;
+}
+.rig li a {
+	text-decoration: none;
+	font-size: 0.875rem;
+}
+.dr {
+	margin-left: 40px;
+	width: 100%;
+}
+.dr button {
+	color: #B22222;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.dr button:hover {
+	color: #FF6347;
+}
+.drr a {
+	color: #E5B98F;
+	font-size: 0.875rem;
+	font-weight: bold;
+}
+.drr a:hover {
+	color: #FFD700;
+	background: rgba(0, 0, 0, 0);
+}
+.drs {
+	width: 129px;
+}
+.lang button {
+	margin-top: 3px;
+	color: #B22222;
+	font-size: 0.875rem;
+	font-weight: bold;
+}
+.lang button:hover {
+	color: #FF6347;
+}
+.langs a {
+	color: #E5B98F;
+	font-size: 0.875rem;
+	font-weight: bold;
+}
+.langs a:hover {
+	color: #FFD700;
+	background: rgba(0, 0, 0, 0);
+}
+.foot a {
+	color: #E5B98F;
+	text-decoration: none;
+}
+.foot a:hover {
+	color: #FFD700;
+	background: rgba(0, 0, 0, 0);
+}
+
+
+.menuBg {
+	background: rgba(255,255,255,1);
+	transition: 0.2S;
+}
+
+.menuBgAni {
+	background: rgba(0,0,0,0);
+}
+
+
+/* review*/
+.conta2 {
+	margin-top: 50px;
+	background: #fffff0;
+}
